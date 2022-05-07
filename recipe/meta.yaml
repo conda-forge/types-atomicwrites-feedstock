@@ -1,5 +1,5 @@
 {% set name = "types-atomicwrites" %}
-{% set version = "1.4.4" %}
+{% set version = "1.4.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-atomicwrites-{{ version }}.tar.gz
-  sha256: a1b6951d68acc524cdf3cec51fc3e32d5df1036e832d531e2e558933a3bff82a
+  sha256: 458a985b2cfaa963becec21ba63faaa5dd241e237ba8bf024732b37b18690de6
 
 build:
   number: 0
